@@ -4,6 +4,9 @@ import re
 def word_count(string):
     return(len(string.strip().split(" ")))
 
+# print greetings
+print ("Good day")
+
 # open file to write, create the file if necessary
 print ("Reading data set 1")
 f=open("here.txt", "w+")
